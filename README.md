@@ -1,8 +1,8 @@
-# Laravel 8 RestAPI Pagination
+# Laravel 8 Rest API Pagination
 
-<p>
-    I call the API (https://jsonplaceholder.typicode.com/posts) and store that data in a variable ($data) in json format. I wanted to put these data on a table. There are 100 data here. Thats why I wanted to keep 5 raw in the form of pagination. Hazzaz Bin Faiz's brother has solved this problem. Thanks.
-</p><br><br>
+<p><i>NB: My laravel 8 project name is <b>basic</b></i></p>
+
+<p>I call the API (https://jsonplaceholder.typicode.com/posts) and store that data in a variable ($data) in json format. I wanted to put these data on a table. There are 100 data here. Thats why I wanted to keep 5 raw in the form of pagination. Hazzaz Bin Faiz's brother has solved this problem. Thanks.</p>
 C:\xampp\htdocs\basic\app\Providers\AppServiceProvider.php
 
 ```php
