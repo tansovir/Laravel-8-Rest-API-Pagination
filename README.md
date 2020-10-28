@@ -1,4 +1,8 @@
 # Laravel 8 RestAPI Pagination
+
+<p>
+    I call the API (https://jsonplaceholder.typicode.com/posts) and store that data in a variable ($data) in json format. I wanted to put these data on a table. There are 100 data here. Thats why I wanted to keep 5 raw in the form of pagination. Hazzaz Bin Faiz's brother has solved this problem. Thanks.
+</p><br><br>
 C:\xampp\htdocs\basic\app\Providers\AppServiceProvider.php
 ```php
 <?php
@@ -51,7 +55,8 @@ class AppServiceProvider extends ServiceProvider
 ```
 
 C:\xampp\htdocs\basic\app\Http\Controllers\postsController.php
-```
+
+```php
 <?php
 
 namespace App\Http\Controllers;
